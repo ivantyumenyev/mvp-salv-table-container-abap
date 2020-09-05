@@ -22,6 +22,11 @@ Create dynpro screen **0100** and place container **MAIN_CONTAINER** on it.
 ![0100 Screen](/images/0100_screen.png)
 
 
+Also you need to have GUI Status **0100** and GUI Title **0100**.
+
+![0100 GUI Status](/images/0100_gui_status.png)
+
+
 Add screen flow logic for this screen:
 ```abap
 PROCESS BEFORE OUTPUT.
@@ -31,7 +36,3 @@ PROCESS AFTER INPUT.
  MODULE USER_COMMAND_0100.
  MODULE EXIT_USER_COMMAND_0100 AT EXIT-COMMAND.
  ```
-
-Also you need to have GUI Status **0100** and GUI Title **0100**.
-
-![0100 GUI Status](/images/0100_gui_status.png)
