@@ -1,6 +1,6 @@
 # ALV Grid report based on Model-View-Presenter pattern
 
-MVP code example using CL_SALV_TABLE based on object oriented ABAP
+MVP code example using **CL_SALV_TABLE** based on object oriented ABAP
 
 ![ALV grid screen.png](/images/ALV_grid_screen.png)
 
