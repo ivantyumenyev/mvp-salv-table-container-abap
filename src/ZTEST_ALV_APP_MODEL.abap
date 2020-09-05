@@ -31,7 +31,8 @@ CLASS lcl_model IMPLEMENTATION.
 
   METHOD read_materials.
     ro_instance = me.
-
+    
+    CLEAR mt_materials->*.
     SELECT * FROM mara WHERE matnr IN @mr_matnr
       INTO TABLE @mt_materials->*.
   ENDMETHOD.
