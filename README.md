@@ -4,6 +4,12 @@ MVP code example using **CL_SALV_TABLE** with Dynpro screen and container. Based
 
 ![ALV grid screen.png](/images/ALV_grid_screen.png)
 
+# Model-View-Presenter
+**Model–view–presenter (MVP)** is a derivation of the model–view–controller (MVC) architectural pattern, and is used mostly for building user interfaces.
+In MVP, the presenter assumes the functionality of the "middle-man". In MVP, all presentation logic is pushed to the presenter.
+
+![Model_View_Presenter.png](/images/Model_View_Presenter.png)
+
 # Report structure
 Create ABAP report, for example **ZTEST_ALV**, with few includes:
 ```abap
