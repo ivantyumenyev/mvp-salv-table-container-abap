@@ -1,4 +1,4 @@
-# ALV Grid report based on Model-View-Presenter pattern
+# ALV Grid report based on Model-View-Presenter pattern with Dynpro screen and container
 
 MVP code example using **CL_SALV_TABLE** with Dynpro screen and container. Based on object oriented ABAP.
 
